@@ -1,0 +1,45 @@
+.wrapper {
+    margin: 10rem auto;
+    width: 500px;
+}
+.checkbox {
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+    float: right;
+    background-color: #dc143c;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 2px 5px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 550;
+  }
+
+  .todo-items {
+    min-width: 350px;
+  }
+
+  .item {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .item:first-child {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  
+  .item:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  .checked { 
+    text-decoration: line-through;
+  }
+  /* ul li {
+      list-style: none;
+  } */
